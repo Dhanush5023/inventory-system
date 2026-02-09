@@ -3,7 +3,8 @@ from datetime import datetime
 from dotenv import load_dotenv
 from flask import Flask, request, render_template, redirect, url_for, session
 
-from models import db, Sellers, Products, Orders, OrderItems
+from InventorySystem-main.models import db, Sellers, Products, Orders, OrderItems
+
 
 # ==============================
 # LOAD ENV
